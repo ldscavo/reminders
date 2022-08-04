@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Reminders.UI", "reminders\Reminders.UI.fsproj", "{CADCC450-419F-4A0C-A63E-E61E7C23BE77}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Reminders.UI.Android", "reminders.Android\Reminders.UI.Android.fsproj", "{218DB666-7222-48EE-9B57-D5469409440C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Reminders.Domain", "Reminders.Domain\Reminders.Domain.fsproj", "{32181C03-B3E1-429B-BA57-92562BE66BD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CADCC450-419F-4A0C-A63E-E61E7C23BE77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADCC450-419F-4A0C-A63E-E61E7C23BE77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADCC450-419F-4A0C-A63E-E61E7C23BE77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADCC450-419F-4A0C-A63E-E61E7C23BE77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218DB666-7222-48EE-9B57-D5469409440C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218DB666-7222-48EE-9B57-D5469409440C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218DB666-7222-48EE-9B57-D5469409440C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{218DB666-7222-48EE-9B57-D5469409440C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218DB666-7222-48EE-9B57-D5469409440C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218DB666-7222-48EE-9B57-D5469409440C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{32181C03-B3E1-429B-BA57-92562BE66BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32181C03-B3E1-429B-BA57-92562BE66BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32181C03-B3E1-429B-BA57-92562BE66BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32181C03-B3E1-429B-BA57-92562BE66BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C89AD57-E8E5-4191-94A2-A0E897423266}
+	EndGlobalSection
+EndGlobal
