@@ -2,18 +2,9 @@
 
 open System
 
-type Day =
-    | Sunday
-    | Monday
-    | Tuesday
-    | Wednesday
-    | Thursday
-    | Friday
-    | Saturday
-
 type NthDayOfWeek =
     { Place: int
-      Day: Day }
+      Day: DayOfWeek }
 
 type MonthRule =
     | DateOfMonth of int
@@ -21,7 +12,7 @@ type MonthRule =
 
 type Interval =
     | Day of int
-    | Week of Day list
+    | Week of DayOfWeek list
     | Month of MonthRule
     | Year of int
 
